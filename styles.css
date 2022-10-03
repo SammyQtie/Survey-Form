@@ -1,0 +1,64 @@
+body{
+    width: 100%;
+    background-color: #3778C2;
+    font-family: tahoma; 
+    color: #f5f6f7;
+  }
+  form {
+    background-color: #28559A;
+    margin: auto;
+    padding: 10px;
+    max-width: 500px;
+    min-width: 300px;
+    margin-top: 30px;
+    border-radius: 15px;
+  }
+  #description {
+  text-align: center;
+  }
+  fieldset {
+  border: none;
+  }
+  #title {
+    margin-top: 30px;
+    margin-bottom: -10px;
+    text-align: center;
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  input, select, text-area {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+  input, textarea {
+    background-color: #0F2557;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  hr {
+    margin: 20px;
+    border: none;
+    height: 3px;
+    background-color: #ffffff;
+  }
+  .fs1 , fs2 {
+    padding: 15px 15px;
+  }
+  #inline {
+    width: unset;
+    margin: 0 5px 0 0;
+  }
+  #submit {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    min-width: 150px;
+  }
+  textarea {
+    display: block;
+    width: 100%;
+  }

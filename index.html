@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you you for taking the time to help us improve the platform</p>
+    <hr>
+    <form id="survey-form">
+<fieldset class="fs1">
+  <label id="name-label">Name <input type="text" id="name"  placeholder="Enter your name" required /></label>
+  <label id="email-label">Email <input type="email" id="email" placeholder="Enter your Email" required /> </label>
+  <label id="number-label">Age <input type="number" id="number" placeholder="Enter your age (optional)" min="5" max="120" /> </label>
+  <label>Which option best describes your current role?<select id="dropdown">
+    <option disabled selected value>Select one</option>
+    <option >Student</option>
+    <option >Full time job</option>
+    <option >Full time learner</option>
+    <option >Other</option>
+    <option>Prefer not say</option>  
+    </select></label>
+    
+</fieldset>
+<fieldset class="fs2">
+<label ><p id="fs2p">Would you reccomend FreeCodeCamp to a friend?</p><input type="radio" id="inline" name="radio" value="definitely">Definitely</label>
+<label ><input type="radio" id="inline" name="radio" value="maybe">Maybe</label>
+<label ><input type="radio" id="inline" name="radio" value="not sure">Not sure</label>
+
+</fieldset>
+<fieldset>
+  <label><p>Which of these languages do you speak?</p><input type="checkbox" id="inline" Value="english">English</label>
+  <label><input type="checkbox" id="inline" Value="cebuano" name="checkbox">Tagalog</label>
+ <label> <input type="checkbox" id="inline" Value="cebuano" name="checkbox">Cebuano</label>
+ <label> <input type="checkbox" id="inline" Value="other" name="checkbox">Other</label>
+</fieldset>
+<fieldset>
+ <label>Any comments or suggestions?<textarea name="textarea" rows="3"></textarea></label> 
+</fieldset>
+<input type="submit" value="Submit" id="submit">
+    </form>
+    </body>
+  </html>
